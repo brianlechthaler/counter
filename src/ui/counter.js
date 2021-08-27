@@ -12,7 +12,7 @@ export default function Counter() {
             <p>The current count is {count}.</p>
             <BigBlueButton onClick={() => setCount(count + 1)}>Click to add 1 to counter.</BigBlueButton>
             <BigBlueButton onClick={() => setCount(count - 1)}>Click to subtract 1 from counter.</BigBlueButton>
-            <BigBlueButton onClick={() => setCount(0)}>Click to subtract 1 from counter.</BigBlueButton>
+            <BigBlueButton onClick={() => setCount(0)}>Click to reset the counter to 0.</BigBlueButton>
         </div>
     )
 }
